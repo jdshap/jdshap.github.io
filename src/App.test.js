@@ -3,5 +3,5 @@ import App from './App';
 
 test('null', () => {
   //render(<App />);
-  expect(null).toBeNull
+  expect(null).toBeNull();
 });
