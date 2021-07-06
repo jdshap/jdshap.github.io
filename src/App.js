@@ -1,11 +1,13 @@
 import './App.css';
-import './'
+import './';
+
+import Navbar from './components/navbar'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p className="text">illusory wall ahead</p>
+        <Navbar />
       </header>
     </div>
   );
