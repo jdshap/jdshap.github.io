@@ -13,7 +13,7 @@
 }
 
 .Navtab:hover {
-    background-color: #367e7e;
+    background-image: linear-gradient(to top, #367e7e, #0000);
     cursor: pointer;
 }
 
