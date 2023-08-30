@@ -1,10 +1,12 @@
+import './navtab.css';
+
 import React from "react";
 
 function Navtab(props) {
     return(
-        <div>
-            {props.name}
-        </div>
+        <a className="Navtab" href={props.reference}>
+            <span>{props.name}</span>
+        </a>
     );
 }
 

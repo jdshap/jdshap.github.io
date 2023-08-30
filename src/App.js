@@ -17,7 +17,18 @@ function App() {
       </body>
 
       <footer className="App-footer">
-        <div style={{"width":"70%"}}>something<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>Something else</div>
+        <div style={{"width":"70%"}}>
+          <div>
+            <a href='https://www.github.com/jdshap/'><img className="Social-icon" src='/assets/images/github-mark-white.svg'/></a>
+            <a href="https://www.linkedin.com/in/jdshap/"><img className="Social-icon" src='/assets/images/In-White-26.png'/></a>
+          </div>
+          <div>
+            <a className="Sitemap" href='/'>Home</a>
+            <a className="Sitemap" href='/software'>Software</a>
+            <a className="Sitemap" href='/printing'>3D Printing</a>
+            <a className="Sitemap" href='/about'>About</a>
+          </div>
+        </div>
       </footer>
     </div>
   );
